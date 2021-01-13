@@ -67,3 +67,50 @@
 .input--text::-moz-input-placeholder {
   color: #cacaca;
 }
+header {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.75);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.75);
+  background: #fff;
+}
+
+header .inner {
+  height: 78px;
+  max-width: 980px;
+  margin: 0 auto;
+}
+
+header .logo {
+  margin-right: 10px;
+}
+
+header .logo a {
+  background: url("../img/logo.svg");
+  width: 32px;
+  height: 32px;
+  display: block;
+  text-indent: -9999px; /* a의 내용을 화면 밖으로 밀어내기 위해 */
+}
+
+header .logo a:hover {
+  background: url("../img/logo_on.svg");
+}
+
+header .menu-group {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+header .main-menu {
+  display: flex;
+}
+
+header .main-menu li a {
+  display: inline-block;
+  /* margin-right: 10px; */
+  padding: 10px; /* 클릭되는 범위를 늘릴려고 !! */
+}
+
+header .main-menu li a:hover {
+  color: #4078c0;
+}
