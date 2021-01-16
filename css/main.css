@@ -334,9 +334,7 @@ header .sub-menu li a:hover {
 }
 
 .section--feature .tiles li:last-child {
-   
   border-right: none;
-  
 }
 
 .section--feature .tiles li img {
@@ -354,4 +352,18 @@ header .sub-menu li a:hover {
 .section--feature .tiles li p {
   font-size: 14px;
   color: #767676;
+}
+
+/* where is */
+.section--where-is .inner {
+  padding-top: 80px;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  margin-top: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-bottom: none;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.25);
 }
