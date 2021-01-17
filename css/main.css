@@ -437,12 +437,25 @@ footer .logo {
   top: 0;
   bottom: 0;
   left: 0;
-  right:0;
-  margin : auto;
+  right: 0;
+  margin: auto;
   width: 24px;
   height: 24px;
 }
 
 footer .logo:hover svg {
   fill: #4078c0;
+}
+
+@media (max-width: 1024px) {
+  header.section .inner {
+    max-width: none;
+    height: auto;
+    padding: 0 20px;
+  }
+
+  header .menu-group, 
+  header .sign-group{
+    float: none;
+  }
 }
